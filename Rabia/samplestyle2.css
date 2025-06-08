@@ -1,0 +1,24 @@
+#smallFont{
+    font-size: 10;
+    
+}
+
+.red{
+    color: red;
+}
+.blue{
+    color: blue;
+}
+
+.yellow{
+    color: yellow;
+}
+
+.green{
+    color:green;
+}
+
+.bigFont{
+    font-size: 32px;
+    
+}

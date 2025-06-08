@@ -1,0 +1,64 @@
+<!doctype>
+<html>
+<head>
+    <title>
+    Registration Form
+    </title>
+    <h1>Registration Form</h1>
+    </head>
+    <body>
+    <form action="/serverpage.php" method="post">
+       <div><select name="subject">
+        <option value="support">Support</option>
+            <option value="billing">Billing</option>
+            <option value="product info">Product Info</option>
+            <option value="Customer care">Customer care</option>
+            <option value="Complain">Complain</option>
+     </select>
+           </div> <br>
+      
+        <div><textarea name="message" id="message" placeholder="Write youe message here" required></textarea>
+            
+            </div>
+            <br>
+       <div> <input type="submit"></div>
+        <br>
+        <div>
+        <label for="Username">Username:</label>
+        <input type="text" name="username" id="username" placeholder="User name" required>
+        </div><br>
+         <div>  
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required>
+        </div><br>
+        <div>
+        <label for="Gender">Gender:</label><br>
+        <label for="male">Male</label>
+        <input type="radio" name="radiobutton" value="male"required >
+        <label for="female">Female</label>
+        <input type="radio" name="radiobutton" value="female" required>
+        <label for="other">Other</label>
+        <input type="radio" name="radiobutton" value="other" required>
+            </div>
+         <br>
+        <label for="text">Do you agree to the Terms and Conditions</label>
+        <input type="checkbox" required><br><br>
+        <button type="submit">Login</button>
+        
+        
+        
+    
+        
+        
+        
+        
+        
+        
+        </form>
+    
+    
+    
+    </body>
+
+
+</html>
